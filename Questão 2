@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .table-container {
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #0011ff;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e1f5e1;
+        }
+    </style>
+</head>
+<body>
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 3.500,00</td>
+                <td>Notebook com processador Intel i5 com uns 8 de Ram e 256GB SSD.</td>
+            </tr>
+            <tr>
+                <td>Celular</td>
+                <td>R$ 2.000,00</td>
+                <td>Celular com tela de 120hz, 128GB de armazenamento.</td>
+            </tr>
+            <tr>
+                <td>Monitor</td>
+                <td>R$ 800</td>
+                <td> Monitor 24 polegadas, 144hz bom para jogos competitivos.</td>
+            </tr>
+            <tr>
+                <td>Ventilador</td>
+                <td>R$ 100,00</td>
+                <td>Ventilador de mesa com 3 velocidades</td>
+            </tr>
+            <tr>
+                <td>Fone de Ouvido</td>
+                <td>R$ 80,00</td>
+                <td>Fone de ouvido com microfone, bom para chamadas e jogos.</td>
+            </tr>
+            <tr>
+                <td>Mochila</td>
+                <td>R$ 120,00</td>
+                <td>Mochila resistente à água.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
