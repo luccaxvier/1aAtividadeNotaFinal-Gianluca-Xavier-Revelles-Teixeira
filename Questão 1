@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #0400ff;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            color: #333;
+            border-bottom: 2px solid #a200ff;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Minha Página Pessoal</h1>
+
+    <div class="section">
+        <div class="section-title">Informações Pessoais</div>
+        <p><strong>Nome:</strong> Gianluca Xavier Revelles Teixeira</p>
+        <p><strong> Área de atuação:</strong> Desenvolvedor web</p>
+        <p><strong>Matrícula:</strong> 202402270681</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Curso de Graduação</div>
+        <p>Estou cursando <strong>Desenvolvimento Web</strong> na <strong>Universidade Estacio </strong>. O curso me oferece uma base sólida em desenvolvimento de paginas web, com o uso de html, css e javaScript..</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Objetivo Profissional</div>
+        <p>Meu objetivo profissional é atuar na área de Desenvolvimente Web, pois é uma das linguagens de programação que eu mais me afeiçoeei e tenho facilidade em aprender. Estou sempre em busca de oportunidades para aprimorar minhas habilidades e expandir meus conhecimentos na área.</p>
+    </div>
+</div>
+
+</body>
+</html>
